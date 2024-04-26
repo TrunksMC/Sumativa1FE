@@ -1,15 +1,85 @@
 *{
     border: 0;
     margin: 0;
-    padding: 0;
+    padding: 0;   
 }
-.logo{
+
+.cabeza{
     display: flex;
     margin: 0 34px;
-    padding: 20px 20px 20px 0;
+    padding: 25px;
+    margin-left: 6.3rem;
+    
+}
+nav{
+    background-color: #f4f3f8;
+    
+}
+.logo{
+    width: 203px;
+    height: 48.86px;
+    
 }
 .buscador input{
     padding: 8px 35px 8px 15px;
-    border: 0.1px solid black;
+    margin-left: 3.5rem;
+    width: 489.7px;
+    height: 29px;
+    border: 1px solid #c2c2c2;
+    border-radius: 4px;
+    color: #8b99a7;
+    font-size: .8rem;
+    position: static;
+}
+.buscador img{
+    position: absolute;
+    width: 1.7%;
+    margin-left: 34.8rem;
+    margin-top: 8px;
+}
+
+.imagen{
+    width: 100%;
+    
+}
+.palabras{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #01324c;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2rem;
+}
+.palabras .i{
+    width: 4.2%;
+    margin-left: 2rem;
+}
+.sesion{
+    display: flex;
+    margin-left: 20px;
+}
+.servicio{
+    margin-left: 2rem;
+}
+.exterior{
+    width: 1.8%;
+    height: 20%;
+    margin-left: 2px;
+}
+.usuario{
+    width: 5%;
+    margin-left: 2rem;
+}
+.pe{
+    margin-left: .8rem;
+}
+.panel{
+    display: flex;
+    background-color: #343d55;
+    justify-content: center;
+    color: white;
+    font-size: 1.05rem;
+    align-items: center;
+    padding: 15px;
     
 }
