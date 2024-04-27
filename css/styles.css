@@ -8,8 +8,7 @@
     display: flex;
     margin: 0 34px;
     padding: 25px;
-    margin-left: 6.3rem;
-    
+    margin-left: 6.5rem;
 }
 nav{
     background-color: #f4f3f8;
@@ -50,8 +49,12 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 2rem;
 }
-.palabras .i{
+.palabras .i1{
     width: 4.2%;
+    margin-left: 2rem;
+}
+.palabras .i2{
+    width: 5%;
     margin-left: 2rem;
 }
 .sesion{
@@ -67,19 +70,232 @@ nav{
     margin-left: 2px;
 }
 .usuario{
-    width: 5%;
+    width: 6%;
     margin-left: 2rem;
 }
 .pe{
     margin-left: .8rem;
 }
+.panel-padre{
+    background-color: #343d55;
+}
 .panel{
     display: flex;
-    background-color: #343d55;
-    justify-content: center;
+    margin-left: 8rem;
     color: white;
-    font-size: 1.05rem;
+    font-size: 13px;
     align-items: center;
-    padding: 15px;
+    padding: 12px;
+    gap: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+body{
+    background-color: #f4f3f8;
+}
+h2{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 32px;
+    color: #01324c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.seccion-portada{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    margin-left: 1rem;
+}
+.portadas{
+    font-size: 20px;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+}
+
+.corazon{
+    width: 35%;
+    margin-top: .7rem;
+    margin-left: 1.1rem;
     
+}
+.corazon-caja{
+    position: absolute;
+    width: 3.3%;
+    height: 6%;
+    margin-top: 17rem;
+    margin-left: 11rem;
+    background-color: #f4f3f8;
+}
+.boton{
+    display: flex;
+    margin-top: 2rem;
+    background-color: #28c76f;
+    color: white;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    width: 213.75px;
+}
+.carro{
+    width: 8%;
+    margin-right: 10px;
+    
+}
+.cartel{
+    margin-left: 2rem;
+    width: 171px;
+    height: 213.75px;
+    margin-top: 3.5rem;
+}
+.c{
+    background-color: white;
+    width: 88%;
+    height: 20.2rem;
+    
+}
+.primero{
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9rem;
+    width: 240px;
+    color: #24262f;
+    font-weight: bold;
+    
+}
+.segundo{
+    margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #24262f;
+    font-weight: bold;
+}
+.fondo .n1{
+    color: #fff200;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    font-weight: bold;
+    font-size: 2rem;
+    align-items: center;
+    border-bottom: 4px solid #fff200;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.fondo .n1::after{
+    content: "";
+    display: block;
+    width: 42rem;
+    background-color: #fff200;
+    
+}
+.fondo .n2{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    font-size: 1.3rem;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    text-align: center;
+    padding-bottom: 25px;
+}
+.fondo .n2::after{
+    content: "";
+    display: flex;
+    width: 40rem;
+    background-color: rgba(255, 255, 255, .2);
+    
+}
+.letras{
+    background-color: #01324c;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    height: 14rem;
+}
+.tienda{
+    position: absolute;
+    margin-top: 8rem;
+    margin-left: 5.7rem;
+    width: 87.1%;
+}
+.fondo{
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+    
+}
+.campana{
+    width: 8%;
+    margin-right: 10px;
+}
+.boton2{
+    display: flex;
+    margin-top: 2rem;
+    background-color: yellow;
+    color: black;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    width: 213.75px;
+}
+.fotos-plana{
+    display: flex;
+    background-color: #01324c;
+    height: 34rem;
+    margin-top: 2rem;
+}
+.fotos-img{
+    display: flex;
+    height: 30rem;
+}
+.cuadro{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:6%;
+    width: 32%;
+    height: 15rem;
+}
+.pecausa{
+    color: yellow;
+    font-size: 2rem;
+}
+.parrafo{
+    color: white;
+    margin-top: 10px;
+}
+.blanco{
+    background-color: white;
+    margin-top: 85px;
+    height: 70%;
+    margin-left: 2rem;
+    border-radius: 5px;
+    width: 14rem;
+    
+}
+.cartel2{
+    margin-left: 1.5rem;
+    width: 171px;
+    height: 213.75px;
+    margin-top: 3.5rem;
+}
+.detras{
+    background-color: #01324c;
+    position: absolute;
+    width: 5.5%;
+    height: 50%;
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+.detras2{
+    background-color: #01324c;
+    position: absolute;
+    width: 5.5%;
+    height: 50%;
+    margin-top: 5rem;
+    margin-left: 44rem;
 }
