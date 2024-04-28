@@ -95,21 +95,129 @@ nav{
     color: white;
     text-decoration: none;
 }
+main{
+    font-family: Arial, Helvetica, sans-serif;
+}
+main .inicio-1{
+    color: #353535;
+}
+.dos2{
+    color: #004280;
+    margin-left: 2rem;
+}
 body{
     background-color: #f4f3f8;
 }
-h2{
-    margin-top: 3rem;
-    text-align: center;
-    font-size: 32px;
+main{
+    margin-top: 2rem;
+    margin-left: 8.5rem;
+    
+}
+.contenedor{
+    display: flex;
+    font-weight: bold;
+}
+.titulogrande{
     color: #01324c;
-    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+.parrafosLargos{
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+}
+.comprar{
+    font-size: 1.5rem;
+}
+.item{
+    color: #838383;
+    margin-left: 8.5rem;
+}
+.orden{
+    color: #343d55;
+    margin-left: 44.5rem;
+    font-weight: bold;
+}
+.nombreP{
+    margin-left: .6rem;
+    border-radius: 5px;
+    border: 1px solid #004280;
+    padding: 16px 12px;
+    height: 15px;
+}
+.cuadro-precio{
+    background-color: white;
+    width: 13rem;
+    height: 10rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.texto{
+    color: #004280;
+    font-size: 1.2rem;
+}
+.precios{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.imagenF1{
+    background-color: #01324c;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    position: absolute;
+    margin-top: 3px;
+}
+.imagenF2{
+    background-color: #01324c;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 12.2rem;
+}
+.linea{
+    background-color: #dadada;
+    height: 10px;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+.six{
+    display: flex;
+    margin-top: 2rem;
+    color: #004280;
+    font-weight: bold;
+    width: 14rem;
+    align-items: center;
+}
+.oka{
+    background-color: #004280;
+    border: 1px solid #004280;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 3rem;
+    font-size: .9rem;
+    padding: 10px 23px;
+}
+.separar{
+    display: flex;
+}
+.separar2{
+    display: flex;
+    margin-left: 16.7rem;
+    width: 94rem;
+    margin-top: 1rem;
 }
 .seccion-portada{
     display: flex;
     margin-top: 2rem;
     justify-content: center;
-    margin-left: 1rem;
+    margin-left: -11.5rem;
+    width: 94rem;
 }
 .portadas{
     font-size: 20px;
@@ -153,7 +261,7 @@ h2{
 .cartel{
     margin-left: 2rem;
     width: 171px;
-    height: 213.75px;
+    height: 180px;
     margin-top: 3.5rem;
 }
 .c{
@@ -177,175 +285,11 @@ h2{
     color: #24262f;
     font-weight: bold;
 }
-.fondo .n1{
-    color: #fff200;
-    margin-top: 30px;
-    margin-bottom: 100px;
-    font-weight: bold;
-    font-size: 2rem;
-    align-items: center;
-    border-bottom: 4px solid #fff200;
-    text-align: center;
-    padding-bottom: 15px;
-}
-.fondo .n1::after{
-    content: "";
-    display: block;
-    width: 42rem;
-    background-color: #fff200;
-    
-}
-.fondo .n2{
-    color: white;
-    margin-top: 30px;
-    margin-bottom: 100px;
-    font-size: 1.3rem;
-    border-bottom: 1px solid rgba(255, 255, 255, .2);
-    text-align: center;
-    padding-bottom: 25px;
-}
-.fondo .n2::after{
-    content: "";
-    display: flex;
-    width: 40rem;
-    background-color: rgba(255, 255, 255, .2);
-    
-}
-.letras{
-    background-color: #01324c;
-    display: flex;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    align-items: center;
-    height: 14rem;
-}
 .tienda{
     position: absolute;
     margin-top: 8rem;
     margin-left: 5.7rem;
     width: 87.1%;
-}
-.fondo{
-    margin-top: 3rem;
-    margin-bottom: 8rem;
-    
-}
-.campana{
-    width: 8%;
-    margin-right: 10px;
-}
-.boton2{
-    display: flex;
-    margin-top: 2rem;
-    background-color: yellow;
-    color: black;
-    justify-content: center;
-    padding: 15px;
-    border-radius: 4px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    width: 213.75px;
-}
-.fotos-plana{
-    display: flex;
-    background-color: #01324c;
-    height: 34rem;
-    margin-top: 2rem;
-}
-.fotos-img{
-    display: flex;
-    height: 30rem;
-}
-.cuadro{
-    display: flex;
-    flex-wrap: wrap;
-    font-family: Arial, Helvetica, sans-serif;
-    padding:6%;
-    width: 32%;
-    height: 15rem;
-}
-.pecausa{
-    color: yellow;
-    font-size: 2rem;
-}
-.parrafo{
-    color: white;
-    margin-top: 10px;
-}
-.blanco{
-    background-color: white;
-    margin-top: 85px;
-    height: 70%;
-    margin-left: 2rem;
-    border-radius: 5px;
-    width: 14rem;
-    
-}
-.cartel2{
-    margin-left: 1.5rem;
-    width: 171px;
-    height: 213.75px;
-    margin-top: 3.5rem;
-}
-.detras{
-    background-color: #01324c;
-    position: absolute;
-    width: 5.3rem;
-    height: 26rem;
-    margin-top: 5rem;
-    margin-left: 1rem;
-}
-.detras2{
-    background-color: #01324c;
-    position: absolute;
-    width: 5.3rem;
-    height: 25rem;
-    margin-top: 5rem;
-    margin-left: 44rem;
-}
-.fondo .n3{
-    color: #fff200;
-    margin-top: 30px;
-    margin-bottom: 100px;
-    font-weight: bold;
-    font-size: 2rem;
-    align-items: center;
-    border-bottom: 4px solid #fff200;
-    text-align: center;
-    padding-bottom: 15px;
-}
-.fondo .n3::after{
-    content: "";
-    display: block;
-    width: 21.5rem;
-    background-color: #fff200;
-    
-}
-.fondo .n4{
-    color: white;
-    margin-top: 30px;
-    margin-bottom: 100px;
-    font-size: 1.3rem;
-    border-bottom: 1px solid rgba(255, 255, 255, .2);
-    text-align: center;
-    padding-bottom: 25px;
-}
-.fondo .n4::after{
-    content: "";
-    display: flex;
-    width: 20rem;
-    background-color: rgba(255, 255, 255, .2);
-    
-}
-.a{
-    display: flex;
-}
-.tercero{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 2.31rem;
-    font-size: 15px;
-    margin-left: 4px;
 }
 footer .portada{
     background-color: #01324c;
