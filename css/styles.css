@@ -89,6 +89,11 @@ nav{
     gap: 2rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    
+}
+.panel a{
+    color: white;
+    text-decoration: none;
 }
 body{
     background-color: #f4f3f8;
@@ -161,7 +166,7 @@ h2{
     margin-top: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: .9rem;
-    width: 240px;
+    width: 238px;
     color: #24262f;
     font-weight: bold;
     
@@ -298,4 +303,186 @@ h2{
     height: 50%;
     margin-top: 5rem;
     margin-left: 44rem;
+}
+.fondo .n3{
+    color: #fff200;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    font-weight: bold;
+    font-size: 2rem;
+    align-items: center;
+    border-bottom: 4px solid #fff200;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.fondo .n3::after{
+    content: "";
+    display: block;
+    width: 21.5rem;
+    background-color: #fff200;
+    
+}
+.fondo .n4{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    font-size: 1.3rem;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    text-align: center;
+    padding-bottom: 25px;
+}
+.fondo .n4::after{
+    content: "";
+    display: flex;
+    width: 20rem;
+    background-color: rgba(255, 255, 255, .2);
+    
+}
+.a{
+    display: flex;
+}
+.tercero{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2.31rem;
+    font-size: 15px;
+    margin-left: 4px;
+}
+footer .portada{
+    background-color: #01324c;
+    height: 18.5rem;
+    position: relative;
+    background-image: url(https://tiendapanini.cl/static/version1714095366/frontend/Panini/Chile/es_CL/images/news-back.svg);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position-x: -7%;
+    background-position-y: 48%;
+    margin-top: 4rem;
+    
+}
+.portada-dentro{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 3rem;
+    align-items: center;
+}
+.portada-dentro a{
+    color: #8ab5ff;
+    margin-left: 5px;
+}
+.letra1{
+    color: yellow;
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+.letra2{
+    font-weight: bold;
+    margin-top: 8px;
+}
+.letra3{
+    margin-top: 8px;
+    width: 260px;
+    height: 20px;
+    border: 1px solid #c2c2c2;
+    border-radius: 4px;
+    color: #8b99a7;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 15px 16px 12px;
+    
+    
+}
+.letra3-1{
+    margin-top: 8px;
+    margin-left: 1.5rem;
+    width: 420px;
+    height: 20px;
+    border: 1px solid #c2c2c2;
+    border-radius: 4px;
+    color: #8b99a7;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 15px 16px 12px;
+}
+.cuadrado{
+    margin-left: 27.55rem;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 17px;
+    height: 18px;
+}
+.letra3-2{
+    margin-left: 1rem;
+}
+.letra4{
+    color: #01324c;
+    background-color: yellow;
+    padding: 16px;
+    width: 9rem;
+    border-radius: 4px;
+    margin-left: 25rem;
+    font-weight: bold;
+    text-align: center;
+}
+.h4{
+    margin-left: 5.5rem;
+    margin-top: 5rem;
+}
+.h5{
+    margin-left: 8px;
+    margin-top: 4.8rem;
+}
+.h5-1 p{
+    margin-left: 24px;
+    margin-top: 4.8rem;
+}
+.final{
+    display: flex;
+    width: 85%;
+    margin-left: 5.5rem;
+    margin-top: 3.5rem;
+    justify-content: space-between;
+}
+.foto-final{
+    width: 11%;
+    height: 11%;
+    margin-top: 1.1rem;
+    
+}
+.uno{
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dos{
+    margin-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tres{
+    color: #24262f;
+    font-weight: bold;
+    font-size: 1.3rem;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5.5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid rgba(0, 66, 128, .3);
+    width: 82rem;
+}
+.tres img{
+    width: 2%;
+    height: 2%;
+    margin-left: 2rem;
+}
+.final-footer{
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9rem;
+    margin-left: 3.7rem;
+    color: #24262f;
 }
